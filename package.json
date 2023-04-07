@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "drizzler-migrate": "drizzle-kit generate:mysql",
+    "drizzle-up": "drizzle-kit up:mysql",
+    "drizzle-drop": "drizzle-kit drop",
+    "drizzle-check":"drizzle-kit check:mysql"
   },
   "dependencies": {
     "@planetscale/database": "^1.7.0",

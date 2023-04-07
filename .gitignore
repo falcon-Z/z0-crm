@@ -35,6 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .vscode/settings.json
-migrations/0000_sparkling_peter_parker.sql
-migrations/meta/_journal.json
-migrations/meta/0000_snapshot.json
+
+# DB Migrations
+.migrations
